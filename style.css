@@ -1574,7 +1574,7 @@ input[type=number] {
         position: relative;
         width: 60%;
         left: 50px;
-        top: -150px;
+        top: -50px;
     }
 
     .inner-part .img{
@@ -1601,7 +1601,7 @@ input[type=number] {
     .home-content .right img {
         position: relative;
         width: 60%;
-        top: -140px;
+        top: -40px;
     }
     .slider{
         margin-top: 10px;
