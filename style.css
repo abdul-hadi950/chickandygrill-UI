@@ -1462,6 +1462,38 @@ input[type=number] {
 
 }
 
+@media all and (max-device-width: 375px){
+    
+    .home-content .left p{
+        margin-left: 50px;
+        width: 250px;
+    }
+    .home-content .right img {
+        position: relative;
+        width: 80%;
+        left: 70px;
+        top: -140px;
+    }
+    .slider{
+        margin-top: 10px;
+    }
+
+    .inner-part .img{
+        width: 300px;
+        height: 300px;
+        left: -88px;
+
+    }
+
+    .footer-right{
+        left: 50px;
+    }
+
+    .footer-logo{
+        left: 0;
+    }
+}
+
 @media (max-width: 980px) {
 
 }
