@@ -1328,14 +1328,14 @@ input[type=number] {
     }
     .home-content .left p{
         margin-left: 50px;
-        width: 180px;
+        width: 350px;
     }
 
     .home-content .right img {
         position: relative;
         width: 60%;
         left: 90px;
-        top: -250px;
+        top: -50px;
     }
 
 
@@ -1522,11 +1522,15 @@ input[type=number] {
 }
 
 @media all and (max-device-width: 440px){
+
+    .home-content .left p{
+        width: 300px;
+    }
     .home-content .right img {
         position: relative;
         width: 58%;
         left: 70px;
-        top: -240px;
+        top: -40px;
     }
 
     .inner-part .img{
