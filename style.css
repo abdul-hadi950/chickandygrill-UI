@@ -15,9 +15,11 @@ body {
     position: relative;
 }
 
+
 html,body {
 width: 100%;
 overflow-x: hidden;
+scroll-behavior: smooth;
 }
 
 html {
@@ -68,7 +70,6 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 16px;
     font-weight: 400;
     position: relative;
 }
@@ -176,7 +177,7 @@ nav ul li a:hover::after {
 }
 
 .story {
-    color: #3e7db8;
+    color: #3f3e65;
     font-size: 80px;
     font-weight: bold;
     margin: 0;
@@ -325,7 +326,7 @@ nav .fa-solid {
   }
   .content span{
     display: block;
-    color: #7b7992;
+    color: #3f3e65;
     margin-bottom: 15px;
     font-size: 22px;
     font-weight: 500
@@ -333,11 +334,11 @@ nav .fa-solid {
   .content .title{
     font-size: 30px;
     font-weight: 700;
-    color: #3e7db8;;
+    color: #3f3e65;;
     margin-bottom: 20px;
   }
   .content .text{
-    color: #3e7db8;;
+    color: #3f3e65;;
     font-size: 19px;
     margin-bottom: 30px;
     line-height: 1.5em;
@@ -354,7 +355,7 @@ nav .fa-solid {
     letter-spacing: 1px;
     cursor: pointer;
     outline: none;
-    background: linear-gradient(89deg, #3e7db8 0%, rgb(63 62 101) 74%);
+    background: linear-gradient(89deg, #3f3e65 0%, rgb(63 62 101) 74%);
     align-self: start;
     transition: all 0.5s;
 }
@@ -393,7 +394,7 @@ nav .fa-solid {
     left: 0;
     height: 100%;
     width: -100%;
-    background: linear-gradient(147deg, #464646  0%, #3e7db8 74%);
+    background: linear-gradient(147deg, #464646  0%, #3f3e65 74%);
     border-radius: 10px;
     transform: scaleX(0);
     transition: transform .6s;
@@ -420,7 +421,7 @@ nav .fa-solid {
     text-align: center;
     font-weight: 700;
     margin-bottom: 50px;
-    color: #3e7db8;
+    color: #3f3e65;
 }
 
 .form-row{
@@ -440,8 +441,8 @@ nav .fa-solid {
 
 .btn-primary {
     color: #fff;
-    background-color: #3e7db8;
-    border-color: #3e7db8;
+    background-color: #3f3e65;
+    border-color: #3f3e65;
     width: 152%;
     height: 50px;
 }
@@ -536,7 +537,11 @@ input[type=number] {
 
 
 
+.mail a:hover{
+    text-decoration: none;
+    color: #fff;
 
+}
 
 
 
@@ -616,7 +621,7 @@ input[type=number] {
     }
     
     .story a{
-        color: #3e7db8;
+        color: #3f3e65;
     }
     
     .story-left{
@@ -975,7 +980,7 @@ input[type=number] {
         text-align: center;
         font-weight: 700;
         margin-bottom: 50px;
-        color: #3e7db8;
+        color: #3f3e65;
     }
     
     .form-row{
