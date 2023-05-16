@@ -1070,7 +1070,7 @@ input[type=number] {
         width: 200px;
         height: 100vh;
         padding-top: 50px;
-        z-index: 2;
+        z-index: 100;
         transition: right 0.5s;
     }
 
@@ -1493,7 +1493,63 @@ input[type=number] {
         left: 0;
     }
 }
+@media all and (max-device-width: 320px){
+    
 
+    nav img{
+        width: 50%;
+    }
+    .home-content .left p{
+        width: 200px;
+    }
+    .home-content .right img {
+        width: 90%;
+        left: 40px;
+        top: -140px;
+    }
+    .story-right{
+        margin-right: 30px;
+    }
+    .menu-head{
+        font-size: 18px;
+    }
+    .slider{
+        margin-top: 10px;
+    }
+    .blog-card{
+        margin-top: 0;
+        height: 600px;
+    }
+    .inner-part .img{
+        width: 250px;
+        height: 250px;
+        top: 180px;
+        left: -113px;
+
+    }
+    .content{
+        margin-top: 220px;
+    }
+    .content .text{
+        width: 230px;
+    }
+    .sliders{
+        top: 560px;
+        width: 150px;
+        left: 230px;
+    }
+
+    .footer-right{
+        left: 50px;
+    }
+
+    .footer-logo{
+        left: 0;
+    }
+    .copyright{
+        left: -75px;
+    }
+}
 @media (max-width: 980px) {
 
 }
