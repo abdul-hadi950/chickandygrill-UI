@@ -152,9 +152,8 @@ nav ul li a:hover::after {
 
 .home-content .right img {
     position: relative;
-    width: 100%;
-    margin-left: 122px;
-
+    width: 90%;
+    margin-left: 180px;
 }
 
 
@@ -477,9 +476,10 @@ nav .fa-solid {
 .background{
     margin: auto;
     align-content: center;
-    width: 95%;
+    width: 90%;
     height: 90%;
     background-image: url(assets/footer\ background.png);
+    object-fit: contain;
     background-repeat: no-repeat ;
     display: flex;
     flex-direction: row;
@@ -571,19 +571,28 @@ input[type=number] {
 
 
 /*---------------------media quiery---------------------------*/
-@media all and (max-width: 1200px){
-    .home-content{
-        margin-top: 50px;
+
+
+
+@media all and (max-width: 1440px){
+    body{
+        width: 100%
+    }
+    #header{
+        height: 700px;
     }
     .home-content .right img {
         position: relative;
-        width: 80%;
-        left: 40px;
-        top: -60px;
+        left: 50px;
+        top: 100px;
     }
-    
 }
+
+
 @media all and (max-width: 1200px){
+    #header{
+        height: 600px;
+    }
     .home-content{
         margin-top: 50px;
     }
@@ -591,7 +600,8 @@ input[type=number] {
         position: relative;
         width: 80%;
         left: 40px;
-        top: -60px;
+        top: 0px;
+        margin-left: 110px;
     }
     
 }
@@ -600,7 +610,6 @@ input[type=number] {
 @media all and (max-width: 1024px){
     body {
         min-width: 100%;
-        height: 100vh;
         overflow-x: hidden;
     }
     nav img {
@@ -619,7 +628,7 @@ input[type=number] {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
 
@@ -1198,6 +1207,7 @@ input[type=number] {
         width: 58%;
         left: 160px;
         top: -300px;
+        margin-left: 110px;
     }
 
     .our{
