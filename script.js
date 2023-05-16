@@ -52,3 +52,4 @@ var sidemenu = document.getElementById("sidemenu");
       clickable: true,
     }
   });
+
