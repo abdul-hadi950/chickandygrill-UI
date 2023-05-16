@@ -1297,10 +1297,12 @@ input[type=number] {
 
 
 @media all and (max-device-width: 480px) {
+    #header{
+        height: 70%;
+    }
     body {
         overflow-x: hidden;
         min-width: 100%;
-        height: 100vh;
     }
     nav{
         width: 90%;
@@ -1573,7 +1575,7 @@ input[type=number] {
     }
 }
 @media all and (max-device-width: 390px){
-
+    
     .home-content .right img {
         position: relative;
         width: 60%;
