@@ -1186,10 +1186,6 @@ input[type=number] {
     }
 
 
-    .home-content .left {
-        
-
-    }
 
     .heading img {
         position: relative;
@@ -1778,7 +1774,7 @@ input[type=number] {
                 }
 }
 
-
+/*
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
@@ -1787,7 +1783,7 @@ input[type=number] {
 
 }
 
-/*
+
 @media only screen 
     and (device-width: 428px) 
     and (device-height: 926px) 
@@ -1808,7 +1804,7 @@ input[type=number] {
         
 
 
-}*/
+}
 
 
 
