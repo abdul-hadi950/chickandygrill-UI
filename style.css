@@ -1615,7 +1615,7 @@ input[type=number] {
 
     .inner-part{
         position: absolute;
-        left: 15px;
+        left: 10px;
     }
     .inner-part .img{
         position: relative;
@@ -1669,7 +1669,7 @@ input[type=number] {
         margin-top: 10px;
     }
     .inner-part{
-        left: 20px;
+        left: 25px;
     }
 
     .inner-part .img{
