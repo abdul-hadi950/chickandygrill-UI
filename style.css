@@ -1458,7 +1458,6 @@ input[type=number] {
         flex-direction: column;
         margin: 0;
         padding: 0;
-        margin-left: -15px;
     }
 
     .inner-part .img{
@@ -1667,6 +1666,9 @@ input[type=number] {
     }*/
     .slider{
         margin-top: 10px;
+    }
+    .inner-part{
+        left: 25px;
     }
 
     .inner-part .img{
