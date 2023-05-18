@@ -119,11 +119,11 @@ nav ul li a:hover::after {
 
 
 .home-content .left {
-    position: relative;
-
-    left: 40px;
-    top: -100px;
-
+    position: absolute;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
 }
 
 .heading img {
@@ -146,17 +146,26 @@ nav ul li a:hover::after {
 }
 
 .home-content .right {
-    position: relative;
+    position: absolute;
+    float: right;
+    right: 0;
+    top: 0;
+    background-image: url(assets/shawarma\ w_o\ sauce.png);
+    background-repeat: no-repeat;
+    background-position: right,bottom;
+    background-size: 75%;
+    width: 50%;
+    height: 27.5%;
 
 }
-
+/*
 .home-content .right img {
     position: relative;
     width: 90%;
     margin-left: 180px;
 }
 
-
+*/
 
 
 
@@ -170,7 +179,6 @@ nav ul li a:hover::after {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 50px;
     margin-top: -50px;
 
 }
@@ -202,7 +210,7 @@ nav ul li a:hover::after {
 
 .story-right {
     margin-top: 170px;
-    margin-right: 200px;
+    margin-right: 100px;
     margin-left: 100px;
     font-size: 19px;
 }
@@ -581,11 +589,11 @@ input[type=number] {
     #header{
         height: 700px;
     }
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         left: 50px;
         top: 100px;
-    }
+    }*/
 }
 
 
@@ -596,13 +604,13 @@ input[type=number] {
     .home-content{
         margin-top: 50px;
     }
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         width: 80%;
         left: 40px;
         top: 0px;
         margin-left: 110px;
-    }
+    }*/
     
 }
 
@@ -662,16 +670,16 @@ input[type=number] {
     }
 
     .home-content .right {
-        position: relative;
+        position: absolute;
 
     }
 
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         width: 80%;
         left: 15px;
         top: -10px;
-    }
+    }*/
     
     .our-story{
         margin-top: 50px;
@@ -720,9 +728,8 @@ input[type=number] {
 
 
     .home-content .left {
-        position: relative;
         left: 50px;
-        margin-top: 120px;
+        top: 50px;
     }
 
     .heading img {
@@ -749,16 +756,16 @@ input[type=number] {
     }
 
     .home-content .right {
-        position: relative;
+        height: 120%;
 
     }
 
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         width: 100%;
         left: 30px;
         top: 20px;
-    }
+    }*/
 
     .our{
         font-size: 35px;
@@ -770,7 +777,9 @@ input[type=number] {
     .story-left{
         line-height: 50px;
         margin-top: 20px;
-        margin-right: -20px;
+    }
+    .story-right{
+        margin-right: 20%;
     }
     .story-right p{
         font-size: 15px;
@@ -932,11 +941,12 @@ input[type=number] {
     }
 
     
-
+    .home-content{
+        margin-top: 0;
+        top: 0;
+    }
     .home-content .left {
-        position: relative;
-        top: -100px;
-        left: 0px;
+        left: -40px;
     }
 
     .heading img {
@@ -963,16 +973,16 @@ input[type=number] {
     }
 
     .home-content .right {
-        position: relative;
+        top:30%;
 
     }
 
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         width: 160%;
         left: -100px;
         top: 80px;
-    }
+    }*/
 
     .our{
         font-size: 35px;
@@ -986,7 +996,12 @@ input[type=number] {
         margin-top: 20px;
         margin-right: -50px;
     }
+
+    .story-right{
+        margin-right: 0;
+    }
     .story-right p{
+        max-width: 70%;
         font-size: 15px;
         margin-top: -140px;
         margin-bottom: 0;
@@ -1111,6 +1126,9 @@ input[type=number] {
         height: 100vh;
         overflow-x: hidden;
     }
+    #header{
+        max-height: 90vh;
+    }
     nav{
         width: 100%;
         margin-left: 0;
@@ -1164,15 +1182,11 @@ input[type=number] {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-top: 50px;
     }
 
 
     .home-content .left {
-        position: relative;
-        left: 10px;
-        margin-top: 120px;
-
+        
 
     }
 
@@ -1189,7 +1203,9 @@ input[type=number] {
         left: 95px;
         top: -15px;
     }
-
+    .home-content .left{
+        margin-left: 15%;
+    }
     .home-content .left p {
         width: 250px;
         text-align: left;
@@ -1198,17 +1214,19 @@ input[type=number] {
     }
 
     .home-content .right {
-        position: relative;
-
+        position: absolute;
+        top: 0;
+        width: 60%;
+        height: 140%;
     }
 
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         width: 58%;
         left: 160px;
         top: -300px;
         margin-left: 110px;
-    }
+    }*/
 
     .our{
         font-size: 30px;
@@ -1216,20 +1234,34 @@ input[type=number] {
     .story{
         font-size: 60px;
     }
-    
-    .story-left{
-        line-height: 50px;
-        margin-top: 20px;
-        margin-right: -70px;
+    .our-story{
+        flex-direction: column;
+        margin-left: 5%;
+    }
+
+    .story-left {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+    .our{
+        font-size: 50px;
+        margin-right: 5%;
+    }
+    .story{
+        font-size: 50px;
+    }
+    .story-right {
+        margin-left: 25%;
+        width: 90%;
     }
     .story-right p{
-        width: 350px;
         font-size: 15px;
-        margin-top: -140px;
-        margin-bottom: 0;
+        text-align: center;
     }
     .story-right a{
         font-size: 15px;
+        margin-left: 30%;
     }
     .inner-part .img{
         width: 200px;
@@ -1333,26 +1365,22 @@ input[type=number] {
         left: 95px;
         top: -15px;
     }
-
-    .home-content .left {
-        position: relative;
-
-    }
     .home-content .left p{
-        margin-left: 50px;
-        width: 350px;
+        font-size: 12px;
+    }
+    .home-content .right{
+        height: 117%;
     }
 
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         width: 60%;
         left: 90px;
         top: -50px;
-    }
+    }*/
 
 
     .our-story{
-        margin-left: 0;
         margin-top: 70px;
         display: flex;
         flex-direction: column;
@@ -1536,14 +1564,29 @@ input[type=number] {
 @media all and (max-device-width: 440px){
 
     .home-content .left p{
-        width: 300px;
+        width: 65%;
     }
-    .home-content .right img {
+
+    .heading img{
+        width: 70%;
+    }
+
+    .sub-heading img{
+        width: 70%;
+    }
+    .home-content .left p{
+        margin-left: 5%;
+    }
+    .home-content .right{
+        
+        background-size: 100%;
+    }
+    /*.home-content .right img {
         position: relative;
         width: 58%;
         left: 70px;
         top: -90px;
-    }
+    }*/
 
     .inner-part .img{
         position: relative;
@@ -1562,14 +1605,11 @@ input[type=number] {
 }
 @media all and (max-device-width: 400px){
 
-    .home-content .left p{
-        width: 250px;
-    }
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         width: 60%;
         top: -90px;
-    }
+    }*/
 
     .inner-part .img{
         position: relative;
@@ -1586,12 +1626,12 @@ input[type=number] {
 }
 @media all and (max-device-width: 390px){
     
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         width: 60%;
         left: 50px;
         top: -90px;
-    }
+    }*/
 
     .inner-part .img{
         position: relative;
@@ -1611,14 +1651,13 @@ input[type=number] {
 @media all and (max-device-width: 375px){
     
     .home-content .left p{
-        margin-left: 50px;
-        width: 250px;
+        margin-left: 1%;
     }
-    .home-content .right img {
+    /*.home-content .right img {
         position: relative;
         width: 60%;
         top: -90px;
-    }
+    }*/
     .slider{
         margin-top: 10px;
     }
@@ -1647,11 +1686,11 @@ input[type=number] {
     .home-content .left p{
         width: 200px;
     }
-    .home-content .right img {
+    /*.home-content .right img {
         width: 70%;
         left: -20px;
         top: -140px;
-    }
+    }*/
     .story-right{
         margin-right: 30px;
     }
