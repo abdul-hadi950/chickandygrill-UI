@@ -1138,6 +1138,7 @@ input[type=number] {
         display: block;
         font-size: 25px;
         color: #ffffff;
+        z-index: 77;
     }
 
     nav img {
