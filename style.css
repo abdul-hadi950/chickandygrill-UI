@@ -1458,6 +1458,7 @@ input[type=number] {
         flex-direction: column;
         margin: 0;
         padding: 0;
+        margin-left: -15px;
     }
 
     .inner-part .img{
@@ -1612,6 +1613,10 @@ input[type=number] {
         top: -90px;
     }*/
 
+    .inner-part{
+        position: absolute;
+        left: 15px;
+    }
     .inner-part .img{
         position: relative;
         left: -72px;
@@ -1653,6 +1658,7 @@ input[type=number] {
     
     .home-content .left p{
         margin-left: 1%;
+        width: 50%;
     }
     /*.home-content .right img {
         position: relative;
@@ -1799,4 +1805,30 @@ input[type=number] {
         
 
 
+}
+
+
+
+@media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-content .right{
+        position: absolute;
+        top: -7%;
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-height: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .home-content .right{
+        height: 95%;
+    }
+    #story{
+        height: 60%;
+        margin-bottom: 0;
+    }
 }
